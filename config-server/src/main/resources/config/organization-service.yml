@@ -1,0 +1,12 @@
+server:
+  port: 8190
+
+welcome:
+  value: Version 2
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
