@@ -10,6 +10,6 @@ spring:
       server:
         composite:
           - type: native
-            search-locations: /Users/dzmitrycharapianka/Work/TR/Spring Cloud/config-server/src/main/resources/config
+            search-locations: /Users/dzmitrycharapianka/Work/TR/Spring-cloud/config-server/src/main/resources/config
 server:
   port: 8071
