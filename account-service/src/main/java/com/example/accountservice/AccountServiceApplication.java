@@ -1,15 +1,13 @@
-package com.epam.organization;
+package com.example.accountservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-//@EnableFeignClients
-public class OrganizationApplication {
+public class AccountServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OrganizationApplication.class, args);
+        SpringApplication.run(AccountServiceApplication.class, args);
     }
 
 }
