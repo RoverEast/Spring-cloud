@@ -15,9 +15,9 @@ import org.springframework.stereotype.Service;
 public class AccountServiceImpl implements AccountService {
 
 
-        private final AccountClientImpl accountClient;
+//        private final AccountClientImpl accountClient;
 //        private final LoadBalancedAccountClientImpl accountClient;
-//    private final AccountClientFeign accountClient;
+    private final AccountClientFeign accountClient;
 
     @Override
     public AccountDto getAccountForOrganization(String organizationId) {
