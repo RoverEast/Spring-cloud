@@ -4,7 +4,7 @@ server:
 welcome:
   value: Version 2
 
-account-service: http://localhost:8191
+account-service: http://account-service
 eureka:
   instance:
     preferIpAddress: true
