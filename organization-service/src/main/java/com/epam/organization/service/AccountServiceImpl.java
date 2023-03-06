@@ -16,7 +16,7 @@ public class AccountServiceImpl implements AccountService {
     private final AccountClientFeign accountClient;
 
     @Override
-    @CircuitBreaker(name = "accountService", fallbackMethod = "accountFallback")
+//    @CircuitBreaker(name = "accountService", fallbackMethod = "accountFallback")
     public AccountDto getAccountForOrganization(String organizationId) {
         return accountClient.getAccountByOrganizationId(organizationId);
     }
