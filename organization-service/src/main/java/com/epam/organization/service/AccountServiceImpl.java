@@ -2,7 +2,6 @@ package com.epam.organization.service;
 
 import com.epam.organization.client.feign.AccountClientFeign;
 import com.epam.organization.dto.AccountDto;
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
